@@ -1,0 +1,104 @@
+
+body {
+    padding: 10px;
+    background-color: #171117;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0.5em;
+    align-content: center;
+    background-color: #c1a9c1;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px #99727b;   
+    margin-bottom: 0;
+}
+
+nav {
+    padding-left: 2em;
+    min-height: 3em;
+    align-content: center;
+}
+
+main {
+    margin: 0 1em 0 1em;
+    border-radius: 5px;
+    background-color: #5b414d;
+    padding: 1em;
+}
+
+footer {
+    font-size: 0.75em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #f3eff3;
+}
+
+a:visited {
+    color: hsl(300, 20%, 75%);
+}
+
+a:hover {
+    color: hsl(300, 1.65%, 75%);
+}
+
+a:active {
+    color: hsl(300, 1.65%, 50%);
+}
+
+h1 {
+    color: #f3eff3;
+}
+
+p {
+    color: #f3eff3;
+}
+
+
+
+header h1 {
+    color: #0C100C;
+    margin: 0.5em;
+}
+
+header p {
+    color: #0C100C;
+    margin: 0 0 1em 1em;
+}
+
+nav a {
+    margin: 0.5em;
+    background-color: #5b414d;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+footer p {
+    margin: 0.5em;
+}
+
+.contact-link {
+    text-decoration: underline;
+}
+
+#wrapper {
+    /*
+    border: 1px solid #f3eff3;
+    */
+    border: 1px solid #f3eff388;
+    padding: 1em;
+}
+
+#logohero {
+    float: right;
+    aspect-ratio: 1 / 1;
+    max-height: 6em;
+    margin: 1em;
+}
